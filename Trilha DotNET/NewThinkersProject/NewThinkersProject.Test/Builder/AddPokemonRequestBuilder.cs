@@ -16,8 +16,8 @@ namespace NewThinkersProject.Test.Builder
         public AddPokemonRequestBuilder()
         {
             _addPokemonRequest = new AddPokemonRequest();
-            _addPokemonRequest.name = _faker.Random.String(40);
-            _addPokemonRequest.type = _faker.Random.String(40);
+            _addPokemonRequest.name = _faker.Random.String(20);
+            _addPokemonRequest.type = _faker.Random.String(20);
         }
 
         public AddPokemonRequestBuilder withNameLength(int length)
